@@ -7,6 +7,8 @@ import Appointment from '../app/models/Appointment';
 
 import databaseConfig from '../config/database';
 
+const cors = require("cors")
+
 const models = [User, File, Appointment];
 
 class Database {
